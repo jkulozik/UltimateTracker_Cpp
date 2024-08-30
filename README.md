@@ -7,7 +7,7 @@ This project is designed to read orientation and position data from the VIVE Ult
 Before running the program, make sure the following setup steps are completed:
 
 1. **Install VIVE Streaming Hub**: 
-   - Download and install from the official VIVE website.
+   - Download and install from the official VIVE website. [VIVEStreamingHub](https://www.vive.com/us/vive-hub/download/)
    - Enable Beta mode for "PC UltimateTracker" using the code: `VIVEUTRCPreview` (valid as of 08/2024).
    - Follow the instructions to create a map. Ignore the last step demanding a SteamVR headset connection.
 
