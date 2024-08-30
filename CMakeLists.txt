@@ -11,7 +11,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 # Include directories
 include_directories(
     ${CMAKE_SOURCE_DIR}/include
-    # "C:/Users/kuloz/Documents/Codes_Windows/CppCodes_public/OpenVR/include"
+    # "<yourPath>/OpenVR/include"
     ${CMAKE_SOURCE_DIR}/../../OpenVR/headers
 )
 
@@ -27,7 +27,7 @@ add_executable(${PROJECT_NAME} ${SOURCES})
 
 # Link libraries
 target_link_libraries(${PROJECT_NAME}
-    "C:/Users/kuloz/Documents/Codes_Windows/CppCodes_public/OpenVR/lib/win64/openvr_api.lib"
+    "<yourPath>/OpenVR/lib/win64/openvr_api.lib" #edit here
 )
 
 # Copy the executable to a bin directory
