@@ -19,10 +19,6 @@ MainProgram::~MainProgram() {
         vr::VR_Shutdown();
         vr_system = nullptr;
     }
-    // if (window) {
-    //     glfwDestroyWindow(window);
-    // }
-    // glfwTerminate();
 }
 
 bool MainProgram::Initialize() {
