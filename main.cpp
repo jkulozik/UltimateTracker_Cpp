@@ -17,7 +17,7 @@ int main() {
     if (program.Initialize()) {
         std::cout << "VR system initialized." << std::endl;
         program.PrintDiscoveredObjects();
-        const int targetFrequency = 120; // Target frequency in Hz
+        const int targetFrequency = 5000; // Target frequency in Hz
         const std::chrono::microseconds targetPeriod(1000000 / targetFrequency); // Target period in microseconds
         int iterations = 0;
         auto startTime = std::chrono::high_resolution_clock::now();
