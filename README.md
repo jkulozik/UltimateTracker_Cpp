@@ -1,6 +1,6 @@
 # UltimateTracker_CPP
 
-This project is designed to read orientation and position data from the VIVE Ultimate Tracker on Windows. 
+This project is designed to read orientation and position data from the VIVE Ultimate Tracker on Windows using C++. 
 
 ## Pre-requirements
 
