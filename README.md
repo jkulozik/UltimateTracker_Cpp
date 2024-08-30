@@ -61,7 +61,7 @@ Before running the program, make sure the following setup steps are completed:
 
 ## Contact
 
-For any questions or issues, please contact [kulozik@isir.upmc.fr].
+For any questions or issues, please contact [kulozik[at]isir.upmc.fr].
 
 ## License
 
